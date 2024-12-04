@@ -82,7 +82,7 @@ Untuk lebih mengenali dataset yang digunakan dan mengetahui karakteristik dari d
 
 #### Jumlah Kategori Wisata di Setiap Kota
 
-![jumlah kategori wisata tiap kota](assets/jumlah_kategori_wisata_tiap_kota.png)
+![jumlah kategori wisata tiap kota](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/jumlah_kategori_wisata_tiap_kota.png?raw=true)
 
 Dari grafik di atas dapat dilihat bahwa tiap daerah memiliki kategori wisata yang paling banyak dari daerah lainnya. Kategori wisata yang paling banyak di setiap daerah dapat dilihat pada tabel berikut.
 
@@ -96,7 +96,7 @@ Dari grafik di atas dapat dilihat bahwa tiap daerah memiliki kategori wisata yan
 
 #### Wisata dengan Rating Tertinggi di Setiap Kota
 
-![wisata rating tertinggi tiap kota](assets/wisata_rating_tertinggi_tiap_kota.png)
+![wisata rating tertinggi tiap kota](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/wisata_rating_tertinggi_tiap_kota.png?raw=true)
 
 Dari grafik di atas dapat dilihat bahwa tiap daerah memiliki destinasi wisata dengan rating yang paling tinggi. Yogyakarta memiliki destinasi wisata dengan rating tertinggi, yaitu Desa Wisata Sungai Code Jogja Kota. Surabaya memiliki destinasi wisata dengan rating tertinggi kedua, yaitu Masjid Nasional Al-Akbar. Semarang memiliki destinasi wisata dengan rating tertinggi ketiga, yaitu Gua Maria Kerep Ambarawa. Jakarta memiliki destinasi wisata dengan rating tertinggi keempat, yaitu Wisata Kuliner Pecenongan. Bandung memiliki destinasi wisata dengan rating tertinggi kelima, yaitu Gereja Tiberias Indonesia Bandung.
 
@@ -155,9 +155,9 @@ Kekurangan:
 
 Hasil:
 
-![content based check](assets/content_based_check.png)
+![content based check](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/content_based_check.png?raw=true)
 
-![content based result](assets/content_based_result.png)
+![content based result](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/content_based_result.png?raw=true)
 
 ### Collaborative Filtering: User-Based RecommenderNet
 
@@ -175,9 +175,9 @@ Kekurangan:
 
 Hasil:
 
-![user review](assets/user_review_collaborative_filtering.png)
+![user review](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/user_review_collaborative_filtering.png?raw=true)
 
-![model recommendation](assets/model_recommendation.png)
+![model recommendation](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/model_recommendation.png?raw=true)
 
 ## Evaluation
 
@@ -185,7 +185,7 @@ Hasil:
 
 Hasil dari 10 teratas rekomendasi terhadap destinasi wisata Museum Nasional yang memiliki tag Budaya dan Jakarta adalah sebagai berikut:
 
-![content based result](assets/content_based_result.png)
+![content based result](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/content_based_result.png?raw=true)
 
 Berdasarkan hasil rekomendasi di atas, dapat dilihat bahwa destinasi wisata yang direkomendasikan memiliki tag yang sama dengan destinasi wisata Museum Nasional, yaitu tag Budaya dan Jakarta. Hal ini menunjukkan bahwa sistem rekomendasi sudah mencapai nilai presisi 100% (10/10).
 
@@ -198,9 +198,9 @@ $$ \text{Precision} = \frac{\text{Jumlah rekomendasi yang relevan}}{\text{Jumlah
 
 ### Collaborative Filtering
 
-![user review](assets/user_review_collaborative_filtering.png)
+![user review](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/user_review_collaborative_filtering.png?raw=true)
 
-![model recommendation](assets/model_recommendation.png)
+![model recommendation](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/model_recommendation.png?raw=true)
 
 Untuk mengevaluasi model Collaborative Filtering, dilakukan perhitungan presisi dan RMSE (Root Mean Squared Error) pada data uji. RMSE digunakan untuk mengukur seberapa baik model dalam memprediksi rating yang diberikan oleh pengguna pada destinasi wisata.
 
@@ -221,7 +221,7 @@ $$ \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} $$
 - $y_i$: Rating yang diberikan oleh pengguna pada destinasi wisata ke-$i$.
 - $\hat{y}_i$: Rating yang diprediksi oleh model pada destinasi wisata ke-$i$.
 
-![hasil rmse](assets/hasil_rmse.png)
+![hasil rmse](https://github.com/Dzoel31/Machine-Learning-Recommendation-System-Dicoding/blob/main/assets/hasil_rmse.png?raw=true)
 
 Berdasarkan hasil perhitungan RMSE di atas, dapat dilihat bahwa model Collaborative Filtering memiliki rata rata RMSE sebesar 0.3294 pada data latih dan 0.3483 pada data uji.
 
@@ -230,5 +230,5 @@ Secara keseluruhan, kedua pendekatan ini dapat digunakan untuk memberikan rekome
 
 ## Daftar Pustaka
 
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
+- Siska, S., Fajri, I. N., Rayhan, R., Pratama, A., & Rohman, A. N. (2024). Sistem Rekomendasi Wisata Magelang Menggunakan Metode Collaborative Filtering. Jurnal Eksplora Informatika, 14(1), 63-70. <https://doi.org/10.30864/eksplora.v14i1.1084>
+
