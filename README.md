@@ -26,6 +26,7 @@ Proyek ini memiliki tujuan sebagai berikut:
 
 ### Solution statements
 
+- Mengembangkan sistem rekomendasi destinasi wisata menggunakan teknik Content-Based
 - Mengembangkan sistem rekomendasi destinasi wisata berbasis algoritma collaborative filtering.
 
 ## Data Understanding
@@ -111,6 +112,8 @@ Data preparation merupakan tahapan yang penting dalam proses pembuatan model sis
 - Penggabungan data.
 
     Penggabungan data dilakukan untuk menggabungkan data yang memiliki hubungan satu sama lain. Penggabungan data melibatkan data user, data rating, dan data destinasi wisata.
+
+Kemudian data tersebut diolah kembali berdasarkan teknik yang digunakan dalam sistem rekomendasi yaitu Content-Based dan Collaborative Filtering
 
 ### Content-Based Filtering
 
