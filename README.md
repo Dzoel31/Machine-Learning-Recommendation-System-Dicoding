@@ -126,11 +126,23 @@ Data preparation merupakan tahapan yang penting dalam proses pembuatan model sis
 
     Seleksi fitur dilakukan untuk memilih fitur yang akan digunakan dalam proses pemodelan. Fitur yang dipilih adalah fitur yang memiliki hubungan dengan target yang akan diprediksi.
 
+- Mengubah data ke dalam bentuk matriks.
+
+    Proses pengubahan bentuk data dilakukan ke dalam bentuk matriks menggunakan TF-IDF. TF-IDF diunakan untuk menghitung relevansi sebuah kata terhadap sebuah dokumen. Pada proyek ini, TF-IDF digunakan untuk menghitung relevansi sebuah tag pada destinasi wisata terhadap nama wisata itu sendiri.
+
+- Menghitung nilai kemiripan dengan Cosine Similarity.
+
+    Cosine Similarity merupakan teknik penghitungan kemiripan antara dua vektor. Teknik ini menghitung sudut kosinus antara dua vektor untuk menentukan kesamaan dua destinasi berdasarkan fitur yang melekat dengan destinasi tersebut.
+
 ### Collaborative Filtering
 
 - Encoding data.
 
     Encoding data dilakukan untuk mengubah data kategorikal menjadi data numerik. Data kategorikal perlu diubah menjadi data numerik agar dapat digunakan dalam proses pemodelan.
+
+- Mapping data.
+
+    Tahapan ini menambahkan kolom baru hasil dari encoding data. tujuan dari tahap ini untuk melihat dan menentukan korelasi data awal dengan data hasil encoding.
 
 - Pembagian data menjadi data latih dan data uji.
 
